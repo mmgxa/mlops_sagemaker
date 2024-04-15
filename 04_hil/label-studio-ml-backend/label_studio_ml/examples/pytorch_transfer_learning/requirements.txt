@@ -1,0 +1,12 @@
+Jinja2
+click
+itsdangerous
+label-studio-ml==1.0.8
+requests
+rq
+scikit-learn
+supervisor
+# torch==1.5.0
+# torchvision==0.6.0
+uwsgi
+werkzeug

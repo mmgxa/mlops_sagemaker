@@ -1,0 +1,1 @@
+{"data": {"is_drift": 0, "distance": 0.00471121072769165, "p_val": 0.14000000059604645, "threshold": 0.05, "distance_threshold": 0.011901795864105225}, "meta": {"name": "MMDDriftTorch", "online": false, "data_type": null, "version": "0.10.4", "detector_type": "drift", "backend": "pytorch"}}

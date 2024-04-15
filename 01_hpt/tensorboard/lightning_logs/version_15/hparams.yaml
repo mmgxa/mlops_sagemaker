@@ -1,0 +1,4 @@
+lr: 0.006336082408986599
+model: resnet26
+num_classes: 6
+opt: SGD

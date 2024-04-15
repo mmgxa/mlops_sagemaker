@@ -1,0 +1,158 @@
+{
+  "event": "ANNOTATION_UPDATED",
+  "job_id": "1673692736",
+  "data": {
+    "annotation": {
+      "id": 32,
+      "result": [
+        {
+          "value": {
+            "choices": [
+              "street"
+            ]
+          },
+          "id": "n2ZEmYAJRL",
+          "from_name": "choice",
+          "to_name": "image",
+          "type": "choices",
+          "origin": "prediction"
+        }
+      ],
+      "was_cancelled": false,
+      "ground_truth": false,
+      "created_at": "2023-01-14T10:35:17.613457Z",
+      "updated_at": "2023-01-14T10:38:54.483286Z",
+      "lead_time": 13.879999999999999,
+      "prediction": {},
+      "result_count": 0,
+      "task": 6,
+      "project": 1,
+      "completed_by": 1,
+      "parent_prediction": 11,
+      "parent_annotation": null
+    },
+    "project": {
+      "id": 1,
+      "task_number": 12,
+      "finished_task_number": 7,
+      "total_predictions_number": 7,
+      "total_annotations_number": 7,
+      "num_tasks_with_annotations": 7,
+      "useful_annotation_number": 7,
+      "ground_truth_number": 0,
+      "skipped_annotations_number": 0,
+      "title": "emlo-capstone-00",
+      "description": "",
+      "label_config": "<View>\n  <Image name=\"image\" value=\"$image\" zoomControl=\"true\"/>\n  <Choices name=\"choice\" toName=\"image\">\n    \n    \n    \n  <Choice value=\"buildings\"/><Choice value=\"forest\"/><Choice value=\"glacier\"/><Choice value=\"mountain\"/><Choice value=\"sea\"/><Choice value=\"street\"/></Choices>\n</View>",
+      "parsed_label_config": {
+        "choice": {
+          "type": "Choices",
+          "to_name": [
+            "image"
+          ],
+          "inputs": [
+            {
+              "type": "Image",
+              "value": "image"
+            }
+          ],
+          "labels": [
+            "buildings",
+            "forest",
+            "glacier",
+            "mountain",
+            "sea",
+            "street"
+          ],
+          "labels_attrs": {
+            "buildings": {
+              "value": "buildings"
+            },
+            "forest": {
+              "value": "forest"
+            },
+            "glacier": {
+              "value": "glacier"
+            },
+            "mountain": {
+              "value": "mountain"
+            },
+            "sea": {
+              "value": "sea"
+            },
+            "street": {
+              "value": "street"
+            }
+          }
+        }
+      },
+      "expert_instruction": "",
+      "show_instruction": false,
+      "show_skip_button": true,
+      "enable_empty_annotation": true,
+      "reveal_preannotations_interactively": false,
+      "show_annotation_history": false,
+      "show_collab_predictions": true,
+      "evaluate_predictions_automatically": false,
+      "token": "8543b5c77c8b9b68",
+      "result_count": 0,
+      "color": "#FFFFFF",
+      "maximum_annotations": 1,
+      "min_annotations_to_start_training": 0,
+      "control_weights": {
+        "choice": {
+          "overall": 1.0,
+          "type": "Choices",
+          "labels": {
+            "buildings": 1.0,
+            "forest": 1.0,
+            "glacier": 1.0,
+            "mountain": 1.0,
+            "sea": 1.0,
+            "street": 1.0
+          }
+        }
+      },
+      "model_version": "",
+      "data_types": {
+        "image": "Image"
+      },
+      "is_draft": false,
+      "is_published": false,
+      "created_at": "2023-01-03T17:40:44.541387Z",
+      "updated_at": "2023-01-10T15:49:35.879362Z",
+      "sampling": "Sequential sampling",
+      "skip_queue": "REQUEUE_FOR_OTHERS",
+      "show_ground_truth_first": false,
+      "show_overlap_first": false,
+      "overlap_cohort_percentage": 100,
+      "task_data_login": null,
+      "task_data_password": null,
+      "pinned_at": null,
+      "organization": 1,
+      "created_by": 1
+    },
+    "task": {
+      "id": 6,
+      "data": {
+        "image": "s3://sagemaker-us-west-2-unlabelled/3.jpg"
+      },
+      "meta": {},
+      "created_at": "2023-01-04T04:39:31.884864Z",
+      "updated_at": "2023-01-14T10:38:56.015935Z",
+      "is_labeled": true,
+      "overlap": 1,
+      "inner_id": 6,
+      "total_annotations": 1,
+      "cancelled_annotations": 0,
+      "total_predictions": 1,
+      "comment_count": 0,
+      "unresolved_comment_count": 0,
+      "last_comment_updated_at": null,
+      "project": 1,
+      "updated_by": 1,
+      "file_upload": null,
+      "comment_authors": []
+    }
+  }
+}
